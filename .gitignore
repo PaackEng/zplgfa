@@ -5,3 +5,5 @@ zplgfa.coverprofile
 coverage.html
 test.zpl.bin*
 zplgfa.exe
+*.pprof
+*.test

@@ -16,7 +16,7 @@ import (
 	"github.com/anthonynsimon/bild/segment"
 	"github.com/nfnt/resize"
 
-	"simonwaldherr.de/go/zplgfa"
+	"github.com/ramirezalbert3/zplgfa"
 )
 
 func specialCmds(zebraCmdFlag, networkIpFlag, networkPortFlag string) bool {

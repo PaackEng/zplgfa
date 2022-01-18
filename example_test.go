@@ -7,13 +7,15 @@ import (
 	"image"
 	_ "image/png"
 	"log"
-	"simonwaldherr.de/go/zplgfa"
 	"strings"
+
+	"github.com/ramirezalbert3/zplgfa"
 )
 
 func ExampleCompressASCII() {
-	str := zplgfa.CompressASCII("FFFFFFFF000000")
-	fmt.Print(str)
+	var buf bytes.Buffer
+	zplgfa.CompressASCII(&buf, "FFFFFFFF000000")
+	fmt.Print(buf.String())
 
 	// Output: NFL0
 }
