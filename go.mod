@@ -1,4 +1,4 @@
-module github.com/ramirezalbert3/zplgfa
+module github.com/PaackEng/zplgfa
 
 go 1.17
 
